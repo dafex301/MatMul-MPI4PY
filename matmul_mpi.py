@@ -1,10 +1,14 @@
-# =============================================
-#          How to run the program
-# =============================================
-# mpiexec -n 4 python matmul_mpi.py 1000
-
-# number after n is the number of processes
-# number after filename is the size of matrix
+# ============================================== #
+#         Matrix Multiplication with MPI         #
+# ============================================== #
+#                                                #
+# How to run the program                         #
+# mpiexec -n 4 python matmul_mpi.py 1000         #
+#                                                #
+# number after n is the number of processes      #
+# number after filename is the size of matrix    #
+#                                                #
+# ============================================== #
 
 from mpi4py import MPI
 import numpy as np

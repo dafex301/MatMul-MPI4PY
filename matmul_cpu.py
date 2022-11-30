@@ -1,9 +1,14 @@
-# =============================================
-#          How to run the program
-# =============================================
-# python matmul_cpu.py 1000
-
-# number after filename is the size of matrix
+# ============================================== #
+#         Matrix Multiplication with CPU         #
+# ============================================== #
+#                                                #
+# How to run the program                         #
+# python matmul_cpu.py 1000                      #
+#                                                #
+# number after n is the number of processes      #
+# number after filename is the size of matrix    #
+#                                                #
+# ============================================== #
 
 import numpy as np
 import time
