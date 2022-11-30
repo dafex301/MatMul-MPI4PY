@@ -15,6 +15,7 @@ np.random.seed(0)
 # Get count from argument
 Count = int(sys.argv[1])
 
+# Generate random matrix with the size of Count
 A = np.random.randint(10, size=(Count, Count))
 B = np.random.randint(10, size=(Count, Count))
 
@@ -25,6 +26,3 @@ t2 = time.time()
 
 print("\n@================ Result ================@\n", C)
 print("\n@================= Time =================@\n", t2-t1, "\n")
-
-# How to run
-# python matmul_cpu.py 1000
